@@ -53,4 +53,11 @@ Ahora solo hay que correr ```npx tsc```.
 
 | Js | Ts |
 | ------ | ------ |
-| const age = 20; | const age: number = 20; |
+| ```const age = 20;``` | ```const age: number = 20;``` |
+
+💡 **Función anónima autoejecutable** (Self-Executing Anonymous Function): una vez declaradas, se llaman a sí mismas para inicializarse pasando desde ese momento a estar disponibles para otras partes de la aplicación.
+
+```
+(function(){ 
+  /* ... */ 
+})();
