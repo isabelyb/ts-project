@@ -1,7 +1,9 @@
 # Typescript Fundamentals
 
 
-## 1. Environment
+
+## Introduction
+### 1. Environment
 
 * [.gitignore file](.gitignore) from [gitignore.io](https://www.toptal.com/developers/gitignore/).
 * [.editorconfig file](.editorconfig) to define format from [editorconfig.org](https://editorconfig.org/).
@@ -12,7 +14,7 @@
 
 💡 In a file .js write ```//@ts-check``` to check syntax.
 
-## 2. El compilador
+### 2. El compilador
 
 Transpila TS y genera Js
 
@@ -33,7 +35,7 @@ Transpila TS y genera Js
 
 ![Deno](assets/deno.png)
 
-## 3. TSConfig.json
+### 3. TSConfig.json
 
 Para configurar como el compilador de Ts.
 
@@ -42,3 +44,13 @@ el comando ```npx tsc --init``` inicializa un archivo [tsconfig.ts](tsconfig.jso
 Ahora solo hay que correr ```npx tsc```.
 
 💡 Se puede programar la compilación continua corriendo el comando ```npx tsc --watch```
+
+## Primitive data type
+
+💡 TypeScript es un superset, es decir, es todo lo que ya está en JavaScript y todo el sistema de tipos.
+
+![Ts](assets/ts.png)
+
+| Js | Ts |
+| ------ | ------ |
+| const age = 20; | const age: number = 20; |
