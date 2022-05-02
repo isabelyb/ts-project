@@ -90,6 +90,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+test/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -213,3 +214,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node
+
+
+
